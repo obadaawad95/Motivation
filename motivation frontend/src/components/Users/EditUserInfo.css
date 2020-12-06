@@ -1,0 +1,43 @@
+.modalUserInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.modalUserInfo :focus {
+  outline: 0;
+}
+
+.paperUserInfo {
+  background-color: #868585;
+  border: 0px;
+  /* box-shadow: ; */
+  padding: 24px;
+  border-radius: 10px;
+}
+.modalUserInfoFooter {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.modalUserInfoFooter2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.EditUserInfoBtn {
+  background-color: #b93946 !important;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  box-shadow: 0 4px 11px rgba(0, 0, 0, 0.15);
+  padding: 15px 22px;
+  margin: 5px;
+}
+
+.EditUserInfoBtn:focus {
+  outline: none;
+}

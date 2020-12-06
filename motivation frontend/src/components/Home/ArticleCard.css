@@ -1,0 +1,11 @@
+.article-card {
+  transition: 0.3s;
+  background: transparent;
+  border: 0px;
+  /* height: 300px;
+  width: 300px; */
+}
+
+.article-container {
+  padding: 2px 16px;
+}

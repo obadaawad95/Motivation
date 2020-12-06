@@ -1,0 +1,48 @@
+.imgs {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.Slide {
+  margin-top: 30px;
+}
+.Stitle {
+  text-align: center;
+  color: #e3e3e3;
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: 1000;
+}
+.Stext {
+  font-weight: 500px;
+  color: #e3e3e3;
+  text-align: center;
+  justify-content: center;
+  font-size: 25px;
+  margin: 40px 4%;
+}
+.image-slider-button {
+  background-color: #ddb091 !important;
+  border: none;
+  color: white;
+  padding: 15px 22px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 15px;
+}
+.image-slider-button:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+@media screen and (max-width: 600px) {
+  .image-slider-button {
+    background-color: #7ac7c4;
+    color: #ffff;
+    border-radius: 15px;
+    padding: 15px 22px;
+    font-size: 15px;
+    font-weight: 1000;
+  }
+}

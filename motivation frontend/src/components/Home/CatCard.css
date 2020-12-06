@@ -1,0 +1,25 @@
+.rootMC {
+  width: 100%;
+  position: relative;
+  border-radius: 7px;
+  box-shadow: 0 4px 11px rgba(0, 0, 0, 0.26) !important;
+  height: 250px;
+  margin-bottom: 20px;
+}
+.contentMC {
+  padding: 24px;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 250px;
+  color: #b93946;
+  text-align: center;
+}
+
+.CardActionArea.focus,
+.CardActionArea:focus {
+  outline: 0;
+  box-shadow: none !important;
+}

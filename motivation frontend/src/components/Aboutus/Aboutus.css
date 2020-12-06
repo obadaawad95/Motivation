@@ -1,0 +1,18 @@
+.aboutus-card {
+  background-color: #e5e5e5;
+  padding: 24px;
+  border-radius: 0px;
+}
+.aboutus-title {
+  color: #b93946;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+}
+.aboutus-text {
+  font-weight: 200px;
+  font-size: 20px;
+  color: #b93946;
+  margin: 0px 6%;
+  text-align: center;
+}

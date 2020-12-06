@@ -1,0 +1,62 @@
+.header-logoimg {
+  block-size: 35px;
+}
+.nav-link {
+  color: black;
+  border-radius: 15px;
+}
+.nav-link:hover {
+  color: #ddb091 !important;
+}
+.nav-link:focus {
+  color: #ddb091 !important;
+}
+
+@media screen and (height: 950px) {
+  .nav-link {
+    color: whitesmoke !important ;
+  }
+}
+.dropbtn {
+  background-color: transparent;
+  color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  border-radius: 7px;
+}
+
+.dropdown-content a {
+  color: #b93946;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #b93946;
+  color: #ddb091;
+  border-radius: 7px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+}
+.dropbtn:focus {
+  outline: 0px;
+}

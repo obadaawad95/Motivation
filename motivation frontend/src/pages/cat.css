@@ -1,0 +1,52 @@
+.columnB {
+  float: left;
+  width: 25%;
+  margin: 4%;
+}
+.columnBB {
+  float: left;
+  width: 23%;
+  margin: 1%;
+}
+
+.roB {
+  margin: 0px 5%;
+  margin-top: 20px;
+}
+.roB::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 1000px) {
+  .columnB {
+    width: 100%;
+    display: block;
+    margin: 0px 0%;
+  }
+  .columnBB {
+    width: 47%;
+    display: block;
+    margin: 1%;
+  }
+
+  .roB {
+    margin: 0px 20%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .columnBB {
+    width: 100%;
+    display: block;
+    margin: 1%;
+  }
+
+  .roB {
+    margin: 0px 20%;
+  }
+}
+
+.containerB {
+  margin: 0px 6%;
+}

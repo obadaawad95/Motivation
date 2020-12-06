@@ -1,0 +1,47 @@
+.rootwide {
+  margin-top: 30px;
+  background-color: #ddb091;
+  border-radius: 15px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/postcard.jpg");
+}
+.headerr {
+  text-align: center;
+  color: #99303b;
+  padding: 24px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.wide-card-button {
+  background-color: #ddb091 !important;
+  border: none;
+  color: white;
+  padding: 15px 22px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+.wide-card-button:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+@media screen and (max-width: 600px) {
+  .wide-card-button {
+    background-color: #7ac7c4;
+    color: #ffff;
+    border-radius: 15px;
+    padding: 15px 22px;
+    font-size: 15px;
+    font-weight: 1000;
+  }
+  .rootwide {
+    height: 450px;
+  }
+}

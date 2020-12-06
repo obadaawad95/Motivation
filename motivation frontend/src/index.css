@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Open Sans", sans-serif;
+  background-color: #e5e5e5 !important;
+}
+body {
+  background-color: #e5e5e5 !important;
+}
+main {
+  background-color: #e5e5e5 !important;
+}
+
+button:focus {
+  outline: none;
+}
+.jss5 {
+  z-index: 3;
+  position: relative;
+  background: #fcf8f5;
+}
+
+.jss6 {
+  margin: -70px 30px -10px;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 16px 24px 2px,
+    rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px;
+  border-radius: 9px;
+}
+@media screen and (max-width: 500px) {
+  .jss6 {
+    margin: -70px 2px -10px;
+  }
+}
+
+.AAA {
+  min-height: calc(100vh);
+}
+
+.center {
+  text-align: center;
+}
+.containH {
+  margin: 0px 1.5%;
+}
+@media screen and (max-width: 700px) {
+  .containH {
+    margin: 0px 0%;
+  }
+}
+.column1HC {
+  float: right;
+  width: 50%;
+}
+.column2HC {
+  float: left;
+  width: 50%;
+}
+.roHC {
+  margin: 0px 1%;
+}
+.roHC::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 1000px) {
+  .column2HC {
+    width: 100%;
+    display: block;
+  }
+  .column1HC {
+    width: 100%;
+    display: block;
+  }
+}
+@media all {
+  ul {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+    font-size: 100%;
+    font-family: inherit;
+  }
+}
