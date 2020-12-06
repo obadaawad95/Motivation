@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Open Sans", sans-serif;
+  background-color: #e5e5e5 !important;
+}
+body {
+  background-color: #e5e5e5 !important;
+}
+main {
+  background-color: #e5e5e5 !important;
+}
+
+button:focus {
+  outline: none;
+}
+
+.center {
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 0;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.res-table {
+  overflow-x: auto;
+}
+
+.nav-link {
+  color: black;
+  border-radius: 15px;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: #ddb091 !important;
+}
+.nav-link:focus {
+  color: #ddb091 !important;
+}
+
+.modal__header {
+  width: 100%;
+  padding: 1rem 0.5em;
+  background-color: #522b2f;
+  color: white;
+}
+.modal__header h2 {
+  margin: 0.5rem;
+}
+
+.modal__content {
+  padding: 1rem 0.5rem;
+  background-color: #c09273;
+}
+
+.modal__footer {
+  padding: 1rem 0.5rem;
+  background: #c09273;
+}
+
+.post-button {
+  background-color: #b93946 !important;
+  border: none;
+  color: whitesmoke;
+  text-align: center;
+  /* text-decoration: none; */
+  display: inline-block;
+  border-radius: 15px;
+  /* box-shadow: 0 4px 11px rgba(0, 0, 0, 0.1); */
+  padding: 15px 22px;
+  font-weight: 500;
+}
+.post-button:focus {
+  outline: none;
+}
+
+.admin-label {
+  float: left;
+  transform: translateY(150%);
+  margin-left: 15px;
+}
+
+.admin-input {
+  background-color: #c8c8c8;
+  color: black;
+  border: 1px solid transparent;
+  padding: 18px 14px;
+  outline: 0;
+  border-radius: 2px;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.admin-input:focus {
+  transition: 0.3s;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.admin-button {
+  background-color: #b93946;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  box-shadow: 0 4px 11px rgba(0, 0, 0, 0.15);
+  padding: 15px 22px;
+}
+.admin-button:focus {
+  outline: none;
+}
